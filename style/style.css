@@ -204,6 +204,10 @@ section{
 	box-shadow: 2px 2px 25px #aaa;
 }
 
+footer{
+	clear: both;
+}
+
 /*.foot{
 	border-top: 720px solid RGBa(255, 255, 255, 0);
 }*/
