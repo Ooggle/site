@@ -1,0 +1,79 @@
+body{
+  font-family: 'Century Gothic', Calibri, serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.menu-ac, .menu-don{
+  transition-property: all;
+	transition-duration: 0.4s;
+}
+
+.menu-ac a, .menu-don a{
+    color: RGB(42, 44, 48);
+}
+
+.menu-ac:hover, .menu-don:hover{
+	transition-property: all;
+	transition-duration: 0.4s;
+  background-color: RGBa(132, 177, 249, 0.60);
+}
+
+.menu-ac a:hover, .menu-don a:hover{
+    color: black;
+}
+
+.menu-ac:hover, .menu-don:hover{
+	transition-property: all;
+	transition-duration: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+	width: 100%;
+	background-image: url(../img/poilbac.jpg);
+  border-top: 3px solid #324548;
+  border-bottom: 3px solid #324548;
+}
+
+.table{
+	display:  table;
+	margin: 0 auto;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 12px 25px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
