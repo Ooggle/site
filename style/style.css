@@ -1,0 +1,209 @@
+body{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 100px;
+	border-top: 0.1px solid RGBa(144, 214, 100, 0.20);
+	background-color: RGBa(144, 214, 100, 0.50);
+}
+
+.retroback{
+	background-color: #222;
+	color: #FFF
+}
+
+.retrobg{
+	border-top: 5px solid #4f039b;
+	background-color: RGBa(31, 1, 61, 0.5)
+}
+
+nav{
+	width: 100%;
+	background-color:  #425558;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.menu-ind, .site{
+	transition-duration: 0.4s;
+}
+.menu-ind:hover, .site{
+	transition-property: background, border-top;
+	transition-duration: 0.4s;
+}
+
+.menu-exp, .site{
+	transition-duration: 0.4s;
+}
+.menu-exp:hover, .site{
+	transition-property: background, border-top;
+	transition-duration: 0.4s;
+}
+
+.menu-hob, .site{
+	transition-duration: 0.4s;
+}
+.menu-hob:hover, .site{
+	transition-property: background, border-top;
+	transition-duration: 0.4s;
+}
+
+
+
+.menu-ind:hover, .site{
+	border-top: 5px solid #4C8;
+	background-color: RGBa(64, 200, 130, 0.15)
+}
+
+.menu-exp:hover, .sti{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15)
+}
+
+.menu-hob:hover, .retro{
+	border-top: 5px solid #0070BB;
+	background-color: RGBa(000, 122, 192, 0.15);
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.sec{
+	margin: 0px 10%;
+}
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+.right{
+	float: right;
+	width: 50%;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+	width: 50%;
+	float: left;
+}
+
+.sec::after, .exp::after, .reco::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.orange{
+	border-top: 5px solid #e47d26;
+	background-color: RGBa(228, 117, 28, 0.15);
+	margin-bottom: 0px;
+}
+
+.rose{
+	border-top: 5px solid #e44d96;
+	background-color: RGBa(228, 77, 128, 0.15);
+	margin-bottom: 0px;
+}
+
+.vert{
+	border-top: 5px solid #5f6;
+	background-color: RGBa(70, 240, 80, 0.15);
+}
+
+.bleu{
+	border-top: 5px solid #29c;
+	background-color: RGBa(30, 152, 212, 0.15);
+}
+
+.jaune{
+	border-top: solid #f3e241;
+	background-color: RGBa(240, 255, 69, 0.15);
+}
+
+.rouge{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.eucalobby{
+	border-radius: 8px;
+	width: 83%;
+	-webkit-filter: blur(5px);
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.retrolobby{
+	border-radius: 8px;
+	width: 90%;
+	-webkit-filter: blur(5px);
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.eucalobby:hover{
+	/*border-radius: 40px;
+	width: 85%;*/
+	-webkit-filter: blur(0px);
+	box-shadow: 2px 2px 25px #aaa;
+}
+
+.retrolobby:hover{
+	/*border-radius: 40px;
+	width: 92%;*/
+	-webkit-filter: blur(0px);
+	box-shadow: 2px 2px 25px #aaa;
+}
+
+/*.foot{
+	border-top: 720px solid RGBa(255, 255, 255, 0);
+}*/

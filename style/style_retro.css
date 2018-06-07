@@ -1,0 +1,291 @@
+html{
+	font-family: 'Century Gothic', Calibri, serif;
+}
+
+   body{
+	cursor: url(../img/wow.png), auto;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	background-color: RGBa(31, 1, 61, 0.8);
+	background-image: url(../img/bac.png);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: 190%;
+}
+
+span{
+	color: #10a1b0;
+	font-weight: 800;
+	transition-duration: 0.5s;
+}
+
+.centerleftr:hover span, .centerleft:hover span{
+	color:#10b1fa;
+	transition-duration: 0.5s;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 320px;
+	border-top: 0.1px solid RGBa(144, 214, 100, 0.20);
+	background-image: url(http://bandofgeeks.fr/wp-content/uploads/2015/08/Band-of-Geeks-header-Super-Mario-Bros-3-gif.gif);
+	background-size: 1905px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 0px solid;
+	/*background-color: RGBa(144, 214, 100, 0.50);*/
+}
+
+
+footer{
+	height: 80px ;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+}
+
+.retroback{
+	background-color: #222;
+	font-weight: normal;
+	text-align: center;
+}
+
+.retrobg{
+	border-top: 5px solid #380070;
+}
+
+.leljesaispas{
+	border-top: 5px solid #380070;
+}
+
+nav{
+	width: 100%;
+	background-color:  #425558;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.menu-ind, .site{
+	transition-duration: 0.4s;
+}
+.menu-ind:hover, .site{
+	transition-property: background, border-top;
+	transition-duration: 0.4s;
+}
+
+.menu-exp, .site{
+	transition-duration: 0.4s;
+}
+.menu-exp:hover, .site{
+	transition-property: background, border-top;
+	transition-duration: 0.4s;
+}
+
+.menu-hob, .site{
+	transition-duration: 0.4s;
+}
+.menu-hob:hover, .site{
+	transition-property: background, border-top;
+	transition-duration: 0.4s;
+}
+
+
+.menu-ind:hover, .site{
+	border-top: 5px solid #4C8;
+	background-color: RGBa(64, 200, 130, 0.15);
+}
+
+.menu-exp:hover, .sti{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-hob:hover, .retro{
+	border-top: 5px solid #0070BB;
+	background-color: RGBa(000, 122, 192, 0.15);
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.sec{
+	margin: 0px 10%;
+}
+
+.centerleft, .centerright, .right, .left, .vide, .petitvide, .centerleftr{
+	display: inline-block;
+}
+
+.centerleft{
+	width: 30%;
+	padding: 5px;
+	background: rgba(1, 52, 135, 0.1);
+	border-radius: 5px;
+	color: #0040a8;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+.centerleft:hover{
+	background: rgba(1, 52, 135, 0.7 );
+	color: #917a6b;
+	border-radius: 50px;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+.centerright{
+	width: 20px;
+	text-align: left;
+}
+
+.centerleftr{
+	width: 48%;
+	padding: 5px;
+	border-radius: 5px;
+	color: #0040a8;
+	background: rgba(85, 78, 224, 0.1);
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+.centerleftr:hover{
+	transition-property: all;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+	color: #a98ad8;
+	background: rgba(85, 78, 224, 0.5);
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+.invader{
+	width: 6%;
+	transition: all 0.5s ease;
+}
+
+.invader:hover{
+  transform: rotate(360deg) scale(1.7);
+}
+
+.console{
+	width: 1700%;
+}
+
+.left{
+	float: left;
+	width: 15%;
+}
+
+.right{
+	float: right;
+	width: 15%;
+	transform:scaleX(-1);
+}
+
+.vide{
+	width: 10%;
+}
+
+.petitvide{
+	width: 10px;
+}
+
+.zel{
+	width: 100%;
+}
+
+footer{
+	height: 80px ;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+}
+
+
+
+
+
+
+.sec::after, .exp::after, .reco::after{
+	display: table;
+	clear: both;
+}
+
+.orange{
+	border-top: 5px solid #e47d26;
+	background-color: RGBa(228, 117, 28, 0.15);
+	margin-bottom: 0px;
+}
+
+.rose{
+	border-top: 5px solid #e44d96;
+	background-color: RGBa(228, 77, 128, 0.15);
+	margin-bottom: 0px;
+}
+
+.vert{
+	border-top: 5px solid #5f6;
+	background-color: RGBa(70, 240, 80, 0.15);
+}
+
+.bleu{
+	border-top: 5px solid #29c;
+	background-color: RGBa(30, 152, 212, 0.15);
+}
+
+.jaune{
+	border-top: solid #f3e241;
+	background-color: RGBa(240, 255, 69, 0.15);
+}
+
+.rouge{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
