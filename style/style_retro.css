@@ -9,7 +9,7 @@ html{
 	padding: 0px;
 	background-color: RGBa(31, 1, 61, 0.8);
 	background-image: url(../img/bac.png);
-	background-repeat:repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: 190%;
 }
