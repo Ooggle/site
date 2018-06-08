@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif, verdana;
+}
+
+header{
+	padding: 20px 0;
+	border-bottom: 2px solid #0012FF;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-image: url(../imgs/header-back.jpg);
+	background-repeat: no-repeat;
+}
