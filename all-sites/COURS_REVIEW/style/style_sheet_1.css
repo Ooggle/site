@@ -1,0 +1,42 @@
+/*Titre*/
+h1 {
+	text-align: center;
+	background-color: #088;
+	width: 600px;
+	padding: 20px;
+	border: 20px solid #0C0;
+	margin: 50px;
+}
+/*la liste sommaire*/
+li, p{
+	font-size: 20px;
+}
+/*les liens*/
+a {
+	text-decoration: none;
+	color: #367be2;
+}
+body {
+	background-color: white;
+	font-family: 'Century Gothic', Calibri, serif;
+	margin: 0px;
+}
+/*pour les grands acertissements*/
+.grandwarning {
+	font-size: 30px;
+	color: #E00
+}
+.footer {
+	background-color: RGBa(000, 000, 000, 0.2);
+}
+.retourmenu {
+	font-size: 25px;
+}
+
+.retourmenui{
+	max-width: 50px;
+}
+/*pour les grands textes*/
+.grandtexte {
+	font-size: 30px;
+}

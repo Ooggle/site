@@ -4,11 +4,76 @@
 	font-family: Arial, sans-serif, verdana;
 }
 
+body{
+	background-color: #555;
+}
+
+h1, h2, h3, h4
+{
+    color: #444;
+} 
+
+p{
+	color: #444;
+}
+
+a{
+	color: #777;
+	text-decoration: none;
+}
+
 header{
 	padding: 20px 0;
-	border-bottom: 2px solid #0012FF;
-	color: #FFFFFF;
+	border-bottom: 2px solid #DDD;
 	text-transform: uppercase;
-	background-image: url(../imgs/header-back.jpg);
-	background-repeat: no-repeat;
+	background-color: #EEE;
+	font-size: 23px;
+	/* background-image: url(../imgs/header-back.jpg);
+	background-repeat: no-repeat; */
 }
+
+.listesec{
+	margin: 15px auto;
+	text-align: center;
+	width: 70%;
+	background-color: rgba(220, 220, 220, 0.5);
+	border-radius: 5px;
+}
+
+.listetitre{
+	padding: 5px 0;
+	border-radius: 5px;
+	background-color: rgba(220, 220, 220, 0.7);
+	font-size: 35px;
+}
+
+.listecontenu{
+	padding: 5px 0;
+}
+
+.listecontenu p{
+	padding: 2px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
