@@ -45,6 +45,7 @@ window.onload = function() {
                 do {
                     applee.setNewPosition();
                 } while(applee.isOnSnake(snakee))
+                delay = delay - 5;
             }
             ctx.clearRect(0, 0, canvasWidth, canvasHeight);
             drawScore();
