@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif, verdana;
+	font-family: Arial, sans-serif, Verdana;
 }
 
 body{
@@ -23,7 +23,7 @@ a{
 }
 
 header{
-	padding: 20px 0;
+	padding: .6em 0;
 	border-bottom: 2px solid #DDD;
 	text-transform: uppercase;
 	background-color: #EEE;
@@ -41,7 +41,7 @@ header{
 }
 
 .listetitre{
-	padding: 5px 0;
+	padding: .2em 0;
 	border-radius: 5px;
 	background-color: rgba(220, 220, 220, 0.7);
 	font-size: 35px;
@@ -53,9 +53,13 @@ header{
 
 .listecontenu p{
 	padding: 2px 0;
+	transition-duration: 0.3s;
 }
 
-
+.listecontenu p:hover{
+	color: #000;
+	transition-duration: 0.3s;
+}
 
 
 
