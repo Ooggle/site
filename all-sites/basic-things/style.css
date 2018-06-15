@@ -31,6 +31,9 @@ body{
     .content{
         padding: 0 5%;
     }
+    .div-code{
+        min-width: 90%;
+    }
 }
 
 h1{
