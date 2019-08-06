@@ -14,11 +14,49 @@ body{
     display: none;
 }
 
+::selection{
+    background: #18fc1c;
+}
+
+blockquote {
+    font-family: 'PT Sans', sans-serif;
+    padding: 3rem 10% 3rem;
+    display: inline-block;
+    clear: both;
+    color: rgb(189, 189, 189);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 1rem auto 2.5rem;
+    position: relative;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+blockquote:after, blockquote:before {
+    content: " ";
+    border-top: 3px solid #efefef;
+    position: absolute;
+    top: .625rem;
+    width: 50%;
+    height: 1px;
+    left: 25%;
+}
+
+blockquote:after {
+    bottom: .625rem;
+    top: auto;
+    width: 30%;
+    left: 35%;
+}
+
 a{
     color: aqua;
 }
 
-p{
+p, h1{
     color: white;
 }
 
