@@ -81,6 +81,24 @@ li{
     text-align: justify;
 }
 
+@media only screen and (max-width: 1000px) {
+    #site-body{
+        width: 80%;
+    }
+    .site-brand{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #site-body{
+        width: 95%;
+    }
+    .site-brand{
+        font-size: 30px;
+    }
+}
+
 /* 2 ELEMENTS COL */
 .col-2{
     margin: 25px 0;
@@ -90,6 +108,17 @@ li{
 
 .col-2 figure{
     width: 49%;
+}
+
+@media only screen and (max-width: 800px) {
+    .col-2{
+        flex-direction: column;
+    }
+
+    .col-2 figure{
+        width: 99%;
+        margin: 5px auto;
+    }
 }
 
 figure{
