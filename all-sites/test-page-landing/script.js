@@ -6,3 +6,16 @@ window.onload = function () {
         document.body.style.overflow = "scroll";
     }, 2000);
 }
+
+document.addEventListener("scroll", setScroll);
+
+function setScroll() {
+    var h = document.documentElement, 
+    b = document.body,
+    st = 'scrollTop',
+    sh = 'scrollHeight';
+
+    var percent = (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
+
+    document.getElementById("scrollbar-indicator-elem").style.height = percent + "%";
+}
