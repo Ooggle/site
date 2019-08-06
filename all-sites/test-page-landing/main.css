@@ -18,7 +18,7 @@ body{
     background: #18fc1c;
 }
 
-blockquote {
+blockquote{
     font-family: 'PT Sans', sans-serif;
     padding: 3rem 10% 3rem;
     display: inline-block;
@@ -35,7 +35,7 @@ blockquote {
     margin-inline-end: 40px;
 }
 
-blockquote:after, blockquote:before {
+blockquote:after, blockquote:before{
     content: " ";
     border-top: 3px solid #efefef;
     position: absolute;
@@ -45,11 +45,19 @@ blockquote:after, blockquote:before {
     left: 25%;
 }
 
-blockquote:after {
+blockquote:after{
     bottom: .625rem;
     top: auto;
     width: 30%;
     left: 35%;
+}
+
+@media only screen and (max-width: 800px) {
+    blockquote{
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+        padding: 2rem 2% 2rem;
+    }
 }
 
 a{
