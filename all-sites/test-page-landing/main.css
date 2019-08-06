@@ -43,17 +43,18 @@ li{
     z-index: 900;
     top: 0;
     right: 0;
-    transition-duration: 0.2s;
 }
 
 #scrollbar-indicator-elem{
     position: fixed;
+    opacity: 0;
     width: 4px;
     height: 90%;
     top: 0;
     right: 0;
     background-color: aqua;
-    
+    transition-duration: 0.5s;    
+    transition-property: opacity;
 }
 
 .site-brand-div{
@@ -80,6 +81,7 @@ li{
     text-align: justify;
 }
 
+/* 2 ELEMENTS COL */
 .col-2{
     margin: 25px 0;
     display: flex;
@@ -91,8 +93,15 @@ li{
 }
 
 
+/* FOOTER */
 
+footer{
+    margin: 40px auto 0 auto;
+}
 
+footer p{
+    text-align: center;
+}
 
 
 
