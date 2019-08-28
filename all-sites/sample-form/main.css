@@ -1,0 +1,142 @@
+*{
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(230deg,#a24bcf,#4b79cf,#4bc5cf);
+    background-size: 300% 300%;
+    -webkit-animation: AnimationName 40s ease infinite;
+    -moz-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#form-1{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 28px -5px rgba(0,0,0,0.75);
+    width: 300px;
+    margin: 80px auto 30px auto;
+}
+#form-1 p{
+    margin: 10px auto;
+    width: 100%;
+}
+#form-1 input[type=text]{
+    margin: 10px auto;
+    width: 100%;
+    padding: 6px 4px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+}
+
+#form-2{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 28px -5px rgba(0,0,0,0.75);
+    width: 300px;
+    margin: 80px auto 30px auto;
+}
+#form-2 p{
+    margin: 10px auto;
+    width: 100%;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#form-2 input[type=text]{
+    margin: 10px auto;
+    width: 48%;
+    padding: 6px 4px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+}
+
+/* BOUTONS */
+
+.button{
+    margin: 10px auto;
+    padding: .375rem .75rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    /*transition-duration: 0.15s;*/
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover{
+    transition-duration: 0.15s;
+}
+.button-rounded{
+    padding: .375rem .75rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    /*transition-duration: 0.15s;
+    transition-property: color, background-color;*/
+    cursor: pointer;
+}
+.button-rounded:hover{
+    transition-duration: 0.15s;
+    transition-property: color, background-color;
+}
+.button:disabled, .button-rounded:disabled{
+    cursor: not-allowed;
+}
+
+.button-primary{
+    color: white;
+    background-color: rgb(74, 74, 243);
+}
+.button-primary:hover{
+    background-color: rgb(37, 37, 233);
+}
+.button-primary:active{
+    background-color: rgb(10, 10, 204);
+}
+.button-primary:disabled{
+    color:  rgb(235, 235, 235);
+    background-color: rgb(175, 175, 236);
+}
+
+.button-error{
+    color: white;
+    background-color: rgb(255, 36, 36);
+}
+.button-error:hover{
+    background-color: rgb(224, 24, 24);
+}
+.button-error:active{
+    background-color: rgb(204, 17, 17);
+}
+.button-error:disabled{
+    color:  rgb(235, 235, 235);
+    background-color: rgb(230, 139, 139);
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
